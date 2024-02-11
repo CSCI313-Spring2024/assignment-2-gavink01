@@ -1,0 +1,143 @@
+.img-me {
+    object-fit: contain;
+    border-radius: 50%;
+    max-width: 400px;
+    max-height: 400px;
+    
+}
+
+.cover-img {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+.p-cover {
+    font-size: 40pt;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 350px;
+    padding-bottom: 350px;
+}
+
+.div-space {
+    height: 100px;
+    min-width: 20%;
+}
+
+.div-space2{
+    height: 60px;
+    min-width: 20%;
+    background-color: #4b7e92;
+}
+
+.div-week{
+    background-image: linear-gradient(white,#4b7e92);
+    padding: 60px;
+}
+
+.div-info{
+    background-color: #4b7e92;
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.float-container {
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.float-child {
+    width: 40%;
+    float: left;
+    padding: 30px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.float-bio {
+    width: 60%;
+    float: left;
+    padding: 20px;
+    min-width: 500px;
+}
+
+.title-text {
+    text-align: center;
+}
+
+.bio{
+    font-size: 25px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td { 
+    
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    text-decoration: underline;
+    text-align: center;
+    padding: 8px;
+}
+
+.h2-hobbies{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+a{
+    padding-left: 60px;
+    padding-right: 60px;
+    color: black;
+}
+
+.a2{
+    padding-left: 60px;
+    padding-right: 60px;
+    color: white;
+}
+
+.float-child ul,
+.float-child ol,
+.float-child a  {
+    font-size: 30px;
+    text-align: left;
+}
+
+.td-work{
+    max-width: 50px;
+    background-color: #40A2E3;
+}
+
+.td-321{
+    background-color:#FFF6E9;
+}
+
+.td-724 {
+    background-color:#BBE2EC;
+}
+
+.td-336 {
+    background-color:#0D9276;
+}
+
+.center {
+    text-align: center;
+}
